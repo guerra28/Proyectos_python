@@ -43,7 +43,7 @@ def promedio_facultades(info: dict, contando_externos: bool = True) -> tuple:
                                         (materia["nota"], materia["creditos"]))
                                     estudiantesUtilizados.add(int(codigo))
                     except:
-                        return "Error numérico"
+                        return "Error numérico."
 
                         
 
