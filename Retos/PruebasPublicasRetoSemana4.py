@@ -15,7 +15,7 @@ EL PROMEDIO DE LA FACULTAD:
 '''
 
 # Prueba 1:
-
+'''
 print(promedio_facultades({
 					20170136837:{
 								"nombres" : "Jorge Juan",
@@ -27,7 +27,7 @@ print(promedio_facultades({
 												"facultad" : "Arquitectura",
 												"codigo" : "ARQU-8218",
 												"nota" : 4.49,
-												"creditos": None,
+												"creditos": 3,
 												"retirada" : "No",
 												},
 												{
@@ -296,9 +296,9 @@ print(promedio_facultades({
 					}))
 # Expected return:
 # ({'Arquitectura': 3.81, 'Diseño': 3.58, 'Ingenieria': 3.63, 'Medicina': 3.08}, ['cp.lopez35', 'ds.guitierrez32', 'gg.alvarez37', 'jj.lopez21', 'jj.lopez95', 'jn.ramirez71', 'mg.romero51', 'sc.fernandez43', 'sc.gomez00', 'sr.cordoba25'])
-
-# Prueba 2:
 '''
+# Prueba 2:
+
 print(promedio_facultades({
 					20170116008:{
 								"nombres" : "Sofia Natalia",
@@ -802,4 +802,4 @@ print(promedio_facultades({
 # Expected return:
 # ({'Arquitectura': 3.84, 'Diseño': 3.37, 'Historia del Arte': 3.66, 'Ingenieria': 3.88, 'Medicina': 3.45}, ['aj.romero88', 'cn.gomez49', 'cp.diaz17', 'cv.guitierrez49', 'cv.lopez69', 'jf.sanchez46', 'jm.fernandez20', 'jp.cordoba36', 'lc.perez11', 'mj.lopez07', 'np.alvarez22', 'pn.jimenez77', 'sg.moreno12', 'sn.alvarez97'])
 
-'''
+
